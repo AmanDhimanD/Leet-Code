@@ -1,6 +1,6 @@
 # Leet-Code
 
--This is Sorting Method in STL C++;
+**This is Sorting Method in STL C++;**
 ```
 #include <bits/stdc++.h>
 using namespace std;
