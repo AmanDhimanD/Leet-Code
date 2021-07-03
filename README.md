@@ -1,7 +1,7 @@
 # Leet-Code
 
 -This is Sorting Method in STL C++;
- '''
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -13,4 +13,4 @@ int main()
         cout << x << " ";
     return 0;
 }
-'''
+```
