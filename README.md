@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 ```
-**Square Root Without using inbuilt Functions
+**Square Root Without using inbuilt Functions**
 ```
 #include<stdio.h>
 
