@@ -16,8 +16,7 @@ public:
         }
         return -1;
     }
-};  
-// 50% Run 
+};    
 //         for(int i =0;i<nums.size();i++){
 //             if(nums[i]==target){
 //                 return i;
