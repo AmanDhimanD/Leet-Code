@@ -1,8 +1,10 @@
 class Solution {
 public:
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
+        //Combine the both the list
         int minSum = list1.size() + list2.size(); 
         
+        //Store common word
         vector<string> com;
         
         for(int i = 0; i < list1.size(); i++){
