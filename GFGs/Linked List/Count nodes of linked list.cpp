@@ -1,4 +1,5 @@
-int getCount(struct Node* head){
+int getCount(struct Node* head)
+{
     int count=0;
         while(head!=NULL){
             count++;
