@@ -1,5 +1,5 @@
 # GeeksforGeeks
-- https://practice.geeksforgeeks.org/topic-tags/?ref=shm
+- Go to Page [!https://practice.geeksforgeeks.org/topic-tags/?ref=shm]
 
 
 **This is Sorting Method in STL C++;**
