@@ -47,5 +47,16 @@ void main()
 
     printf("The square root of '%d' is '%f'", number, sqrt);
 }
-
+```
+**Count Frequency of Numbers**
+```
+ int arr[] = { 10, 20, 20, 10, 10, 20, 5, 20 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    unordered_map<int,int>mp;
+    for(int i=0;i<n;i++){
+          mp[arr[i]]++;
+    }
+    for(auto x:mp){
+          cout<<x.first <<" "<<x.second<<endl;
+    }
 ```
