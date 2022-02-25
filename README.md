@@ -44,7 +44,6 @@ void main()
         // and so on
         sqrt = ( number/temp + temp) / 2;
     }
-
     printf("The square root of '%d' is '%f'", number, sqrt);
 }
 ```
