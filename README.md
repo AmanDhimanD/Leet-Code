@@ -59,3 +59,7 @@ void main()
           cout<<x.first <<" "<<x.second<<endl;
     }
 ```
+**Binary Search
+```
+mid = start + (end - start)/2;
+```
