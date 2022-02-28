@@ -1,6 +1,6 @@
-# Leet-Code
+# Leet-Code 😍🥰
 
-**This is Sorting Method in STL C++;**
+**This is Sorting Method in STL C++;** 🤩
 ```
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 ```
-**Square Root Without using inbuilt Functions**
+**Square Root Without using inbuilt Functions** 😎
 ```
 #include<stdio.h>
 
@@ -59,7 +59,8 @@ void main()
           cout<<x.first <<" "<<x.second<<endl;
     }
 ```
-**Binary Search**
+**Binary Search** 
+- small trick (optimization) 🤑🤑
 ```
 mid = start + (end - start)/2;
 ```
