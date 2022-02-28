@@ -138,11 +138,8 @@ int lastOcc(int arr[],int n,int key){
 int main()
 {
     int arr[7] = {0,1,1,1,1,2,3};
-    
     cout<<firstOcc(arr,7,1)<<endl;
     cout<<lastOcc(arr,7,1)<<endl;
-    
-
     return 0;
 }
 
