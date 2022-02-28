@@ -96,3 +96,77 @@ int main()
 
 ```
 **First and Last Occurence in Sorted Array**
+```
+#include <iostream>
+using namespace std;
+int binarySearch(int arr[],int n,int key){
+    int s=0,e=n-1;
+    int mid = s+(e-s)/2;
+    while(s<=e){
+          cout<<"Start while Loop"<<endl;
+          if(arr[mid]==key){
+                cout<<"Step 1"<<endl;
+               return mid;
+          }
+          if(arr[mid]>key){
+                cout<<"Step 2"<<endl;
+                e=mid-1;
+          }
+          else{
+                cout<<"Step 3"<<endl;
+                s=mid+1;
+          }
+          mid = s +(e-s)/2;
+    }
+    return -1;
+}
+int firstOcc(int arr[],int n,int key){
+      int s=0,e=n-1;
+      int mid = s + (e-s)/2;
+      int ans = 0;
+      while(s<=e){
+            if(arr[mid]==key){
+                  ans = mid;
+                  e=mid-1;
+            }
+            if(key>arr[mid]){
+                  s = mid+1;
+            }
+            else if(key<arr[mid]){
+                  e=mid-1;
+            }
+            mid = s + (e-s)/2; 
+      }
+      return ans;
+}
+int lastOcc(int arr[],int n,int key){
+      int s=0,e=n-1;
+      int mid = s + (e-s)/2;
+      int ans = 0;
+      while(s<=e){
+            if(arr[mid]==key){
+                  ans = mid;
+                  s=mid+1;
+            }
+            if(key>arr[mid]){
+                  s = mid+1;
+            }
+            else if(key<arr[mid]){
+                  e=mid-1;
+            }
+            mid = s + (e-s)/2; 
+      }
+      return ans;
+}
+int main()
+{
+    int arr[7] = {0,1,1,1,1,2,3};
+    
+    cout<<firstOcc(arr,7,1)<<endl;
+    cout<<lastOcc(arr,7,1)<<endl;
+    
+
+    return 0;
+}
+
+```
