@@ -95,3 +95,4 @@ int main()
 }
 
 ```
+**First and Last Occurence in Sorted Array
