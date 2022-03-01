@@ -144,3 +144,26 @@ int main()
 }
 
 ```
+**Function with as a Copy and addreess
+```
+#include <bits/stdc++.h>
+using namespace std;
+int passByAddress(int &n){
+      return ++n;
+}
+int passByCopy(int n){
+      return ++n;
+}
+int main(){
+
+    int a = 10;
+    cout<<a<<endl;
+    cout<<passByCopy(a)<<endl;
+    cout<<a<<endl;
+    a=10;
+    cout<<passByAddress(a)<<endl;
+    cout<<a<<endl;
+    return 0;
+}
+
+```
