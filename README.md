@@ -21,11 +21,8 @@ int main()
 void main()
 {
     int number;
-
     float temp, sqrt;
-
     printf("Provide the number: \n");
-
     scanf("%d", &number);
 
     // store the half of the given number e.g from 256 => 128
