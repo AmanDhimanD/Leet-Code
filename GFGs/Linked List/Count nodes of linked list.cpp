@@ -5,5 +5,6 @@ int getCount(struct Node* head)
             count++;
             head=head->next;
         }
+    
         return count;
 }
