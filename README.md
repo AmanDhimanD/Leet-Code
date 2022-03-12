@@ -141,7 +141,7 @@ int main()
 }
 
 ```
-**Function with as a Copy and addreess
+**Function with as a Copy and addreess**
 ```
 #include <bits/stdc++.h>
 using namespace std;
