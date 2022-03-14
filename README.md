@@ -1,6 +1,6 @@
 # Leet-Code 😍🥰
 
-**This is Sorting Method in STL C++;** 🤩
+**This is Sorting Method in STL C++** 🤩
 ```
 #include <bits/stdc++.h>
 using namespace std;
@@ -92,7 +92,7 @@ int main()
 }
 
 ```
-**First and Last Occurence in Sorted Array**
+**First and Last Occurence in Sorted Array** 😁😋
 ```
 int firstOcc(int arr[],int n,int key){
       int s=0,e=n-1;
@@ -141,7 +141,7 @@ int main()
 }
 
 ```
-**Function with as a Copy and addreess**
+**Function with as a Copy and addreess** 😋😎
 ```
 #include <bits/stdc++.h>
 using namespace std;
