@@ -1,5 +1,5 @@
 
-**First and Last Occurence in Sorted Array** 😎
+**First and Last Occurence in Sorted Array** 😎😁
 ```
 int firstOcc(int arr[],int n,int key){
       int s=0,e=n-1;
