@@ -164,3 +164,13 @@ int main(){
 }
 
 ```
+***Reverse the string***
+```
+void revStringUsingStart(char s[]){
+        int st=0;
+        int end = 6;
+        while(st<end){
+                swap(s[st++],s[end--]);
+        }
+}
+```
