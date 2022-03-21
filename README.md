@@ -1,5 +1,4 @@
 # Leet-Code 😍🥰
-
 **This is Sorting Method in STL C++** 🤩
 ```
 #include <bits/stdc++.h>
