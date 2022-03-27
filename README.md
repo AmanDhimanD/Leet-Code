@@ -204,7 +204,7 @@ void revStringUsingStart(char s[]){
     }
 };
 ```
-#### Explantation - > 
+- Explantation - > 
 ```
 In this Theorem we cut the factors of any number.
 like ->
