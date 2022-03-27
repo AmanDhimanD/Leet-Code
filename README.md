@@ -163,7 +163,7 @@ int main(){
 }
 
 ```
-***Reverse the string***
+**Reverse the string**
 ```
 void revStringUsingStart(char s[]){
         int st=0;
@@ -173,7 +173,7 @@ void revStringUsingStart(char s[]){
         }
 }
 ```
-***Vector Matrix Row and Colums Size***
+**Vector Matrix Row and Colums Size**
 ```
  vector<vector<int>> vect
     {
@@ -186,7 +186,7 @@ void revStringUsingStart(char s[]){
     cout<<vect.size()<<endl; // row of vector
     cout<<vect[0].size()<<endl; //columns of vector
 ```
-***Sieve of Eratoshenes***
+**Sieve of Eratoshenes**
 ```
         vector<bool>prime(n+1,true);
         int count=0;
@@ -203,4 +203,12 @@ void revStringUsingStart(char s[]){
         return count;
     }
 };
+```
+#### Explantation - > 
+```
+In this Theorem we cut the factors of any number.
+like ->
+        2 to 10 
+        2's -> 4,6,8,10 not consider, Cut the all factors 
+- and count only the prime factors
 ```
