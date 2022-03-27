@@ -207,6 +207,5 @@ void revStringUsingStart(char s[]){
 In this Theorem we cut the factors of any number.
 like ->
         2 to 10 
-        2's -> 4,6,8,10 not consider, Cut the all factors 
-- and count only the prime factors
+        2's -> 4,6,8,10 not consider, Cut the all factors and count only the prime factors
 ```
