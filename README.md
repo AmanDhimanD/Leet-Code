@@ -209,3 +209,8 @@ like ->
         2 to 10 
         2's -> 4,6,8,10 not consider, Cut the all factors and count only the prime factors
 ```
+
+**Power with Recursion***
+```
+formula
+```
