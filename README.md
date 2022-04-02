@@ -212,5 +212,6 @@ like ->
 
 **Power with Recursion***
 ```
-formula
+if a is odd - 
+if a is even - 
 ```
