@@ -202,7 +202,7 @@ void revStringUsingStart(char s[]){
         }
         return count;
 ```
-- Explantation - > 
+**Explantation->** 
 ```
 In this Theorem we cut the factors of any number.
 like ->
