@@ -215,5 +215,7 @@ like ->
 if a is odd - 
 if a is even - 
 ```
--- C++ Compiler 
--- Garbarge Collector 
+```
+C++ Compiler 
+Garbarge Collector 
+```
