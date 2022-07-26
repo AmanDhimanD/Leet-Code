@@ -210,7 +210,7 @@ like ->
         2's -> 4,6,8,10 not consider, Cut the all factors and count only the prime factors
 ```
 
-**Power with Recursion***
+**Power with Recursion**
 ```
 if a is odd - 
 if a is even - 
