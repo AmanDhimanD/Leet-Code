@@ -2,6 +2,7 @@
 
 
 ### Sieve Algorithm 
+- T.C - O(n)
 ```
 #include <bits/stdc++.h>
 
