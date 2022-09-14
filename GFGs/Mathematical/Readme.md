@@ -1,7 +1,7 @@
 # Quick Guide
 
 
-- Sieve Algorithm 
+### Sieve Algorithm 
 ```
 #include <bits/stdc++.h>
 
