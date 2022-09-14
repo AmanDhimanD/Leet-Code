@@ -11,6 +11,6 @@ long long int largestPrimeFactor(int N){
         sort(ans.begin(),ans.end());
         
         //long long int ans1 = ans[ans.size()-1];
-        long long int ans1 = ans.back();
-        return ans1;
+        //long long int ans1 = ans.back();
+        return ans.back();
     }
