@@ -34,7 +34,7 @@ int main()
 
 |    T.C. - O(N)    |     T.C. - O(N)	|
 |------------------	|------------------	|
-| int root(int n){ 	| int root(int n){ 	|
+| int SqaureRoot(int n){ 	| int CubeRoot(int n){ 	|
 | int i=1;         	| int i=1;         	|
 | while(i*i <=n){ 	| while(i*i*i<=n){ 	|
 | i++;             	| i++;             	|
