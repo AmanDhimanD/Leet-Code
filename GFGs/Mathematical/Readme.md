@@ -28,5 +28,16 @@ int main()
 
     return 0;
 }
-
 ```
+
+### Square Root and Cube Roots 
+
+|      /*TC - O(N)*/     	|   	|     /*TC - O(N)*/    	|   	|   	|
+|:----------------------:	|---	|:--------------------:	|---	|---	|
+| int SquareRoot(int n){ 	|   	| int CubeRoot(int n){ 	|   	|   	|
+| int i=1;               	|   	| int i=1;             	|   	|   	|
+| while(i*i<=n){         	|   	| while(i*i*i<=n){     	|   	|   	|
+| i++;                   	|   	| i++;                 	|   	|   	|
+| }                      	|   	| }                    	|   	|   	|
+| return (i-1);          	|   	| return (i-1);        	|   	|   	|
+| }                      	|   	| }                    	|   	|   	|
