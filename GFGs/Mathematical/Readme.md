@@ -32,7 +32,7 @@ int main()
 
 ### Square Root and Cube Roots 
 
-| /*TC - O(N)*/    	| /*TC - O(N)*/    	|
+|    T.C. - O(N)    |     T.C. - O(N)	|
 |------------------	|------------------	|
 | int root(int n){ 	| int root(int n){ 	|
 | int i=1;         	| int i=1;         	|
