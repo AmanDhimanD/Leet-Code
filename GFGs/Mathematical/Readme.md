@@ -2,7 +2,9 @@
 
 
 ### Sieve Algorithm 
+
 #### Prime Numbers - T.C - O(n)
+
 ```
 #include <bits/stdc++.h>
 
