@@ -121,3 +121,9 @@ int main()
 ```
 
 
+* Tips 
+
+- Modulo 
+- we are required to answer the result in 10^9+7 modulo. The reason behind this is, if problem constraints are large integers, only efficient algorithms can solve them in an allowed limited time. 
+
+
