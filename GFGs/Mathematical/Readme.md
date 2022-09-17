@@ -41,3 +41,44 @@ int main()
 | }                	| }                	|
 | return (i-1);    	| return (i-1);    	|
 | }                	| }                	|
+
+
+
+#### Quick 
+
+- Prime Number 1 to n Algorithm (not optimize)
+
+```
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<bool>pf(100,true);
+
+int main()
+{
+    int n  = 100;
+    
+    /*for(int i  = 2; i<=sqrt(n);i++){
+        cout<<i<<" ";
+    }*/
+    pf[0] = pf[1] = true;
+    for(int i=2;i<=n;i++){
+        if(pf[i]==true){
+            for(int j=2*i;j<n;j=j+i){
+                pf[j]  = false;
+            }
+        }
+    }
+    for(int i=2;i<n;i++){
+        if(pf[i]==true){
+            cout<<i<<" ";
+        }
+    }
+    
+
+    return 0;
+}
+
+```
+
+
