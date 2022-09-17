@@ -5,6 +5,7 @@
 
 #### Prime Numbers - T.C - O(n)
 
+- Prime Factors
 ```
 #include <bits/stdc++.h>
 
