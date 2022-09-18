@@ -16,7 +16,6 @@ vector<int> isPrime(int n){
     }
     return v;
 }
-
 int main()
 {
     int N = 200;
