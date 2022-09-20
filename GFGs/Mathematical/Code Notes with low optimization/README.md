@@ -36,5 +36,18 @@ int* insertX(int n, int arr[],int x, int pos){
 
 - Deletion 
 ```
+int deleteElement(int arr[],int size,int ele){
+    int i=0;
+    for(i=0;i<size;i++){
+        if(arr[i]==ele) break;
+    }
+    if(i<size){
+        size-=1;
+        for(int j=i;j<size;j++){
+            arr[j]=arr[j+1];
+        }
+    }
+    return size-1;
+}
 
 ```
