@@ -20,13 +20,15 @@ int searchElement(int arr[],int n,int size){
 int* insertX(int n, int arr[],int x, int pos){
     
     //cout<<"Size "<<n<<" "<<"X "<<x<<" "<<"Position "<<pos<<" "<<endl;
+    
     // increase the size by 1
     n++; //size of array 
+    
     // shift elements forward
     for (int i = n; i >= pos; i--){
-        arr[i] = arr[i - 1];
+        arr[i] = arr[i - 1]; 
     }
-    // insert x at pos
+    // insert x at position
     arr[pos - 1] = x;
     return arr;
 }
