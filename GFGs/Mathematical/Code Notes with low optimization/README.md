@@ -1,6 +1,19 @@
 - Dry and run codes are store in this folder
 
-* Array Operations
+*Array Operations
+
+- Searching 
+```
+int searchElement(int arr[],int n,int size){
+    
+    for(int i=0;i<size;i++){
+        if(arr[i]==n){
+            return i;
+        }
+    }
+    return -1;
+}
+```
 
 - Insertion
 ```
