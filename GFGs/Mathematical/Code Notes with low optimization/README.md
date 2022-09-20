@@ -1,6 +1,6 @@
 - Dry and run codes are store in this folder
 
-*Array Operations
+#### Array Operations
 
 - Searching 
 ```
