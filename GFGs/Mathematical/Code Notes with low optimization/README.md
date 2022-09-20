@@ -19,9 +19,9 @@ int searchElement(int arr[],int n,int size){
 ```
 int* insertX(int n, int arr[],int x, int pos){
     
-    cout<<"Size "<<n<<" "<<"X "<<x<<" "<<"Position "<<pos<<" "<<endl;
+    //cout<<"Size "<<n<<" "<<"X "<<x<<" "<<"Position "<<pos<<" "<<endl;
     // increase the size by 1
-    n++;
+    n++; //size of array 
     // shift elements forward
     for (int i = n; i >= pos; i--){
         arr[i] = arr[i - 1];
