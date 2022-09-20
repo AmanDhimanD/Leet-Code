@@ -33,3 +33,8 @@ int* insertX(int n, int arr[],int x, int pos){
     return arr;
 }
 ```
+
+- Deletion 
+```
+
+```
