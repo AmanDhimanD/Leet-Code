@@ -124,4 +124,19 @@ int main()
 - Modulo 
 - we are required to answer the result in 10^9+7 modulo. The reason behind this is, if problem constraints are large integers, only efficient algorithms can solve them in an allowed limited time. 
 
-
+## Sum of elements of array 
+```
+int sumArr(int arr[],int n){
+    int sum=0;
+    for(int i=0;i<n;i++){
+        sum+=arr[i];
+    }
+    return sum;
+}
+```
+and 
+```
+int sumArr(int arr[],int n){
+   return accumulate(arr,arr+n,0);
+}
+```
