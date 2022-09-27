@@ -215,6 +215,15 @@ like ->
 if a is odd - 
 if a is even - 
 ```
+
+**Power Check by &operator**
+```
+int evenOdd(int n){
+    return(n&1);
+}
+```
+
+
 **Topics**
 ```
 C++ Compiler 
