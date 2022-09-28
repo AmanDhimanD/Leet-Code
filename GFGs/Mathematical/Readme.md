@@ -140,3 +140,24 @@ int sumArr(int arr[],int n){
    return accumulate(arr,arr+n,0);
 }
 ```
+
+## Find Unique element of the Array
+```
+Logic-> 
+  0^0 = 0
+  0^1 = 1;
+  1^1 = 0;
+ same^same = 0
+ same^diff = 0
+ 
+int unique(int arr[],int size){
+ int ans=0;
+ for(int i=0;i<size;i++){
+     ans = ans^arr[i];
+ }
+ return ans;
+}
+
+```
+
+
