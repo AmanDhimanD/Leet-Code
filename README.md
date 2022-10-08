@@ -222,7 +222,15 @@ int evenOdd(int n){
     return(n&1);
 }
 ```
+**Divide by Left Shift >>
 
+-- we can use these in binary Search 
+```
+mid = (l+h)/2; OR
+mid = l + (h-l)/2; OR
+
+mid = (l+h)>>1;
+```
 
 **Topics**
 ```
