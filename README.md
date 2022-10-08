@@ -222,7 +222,7 @@ int evenOdd(int n){
     return(n&1);
 }
 ```
-**Divide by Left Shift >>
+**Divide by Left Shift >>**
 
 -- we can use these in binary Search 
 ```
